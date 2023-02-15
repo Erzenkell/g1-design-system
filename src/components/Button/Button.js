@@ -1,9 +1,14 @@
 import React from "react";
 import "./Button.css";
 
-const Button = () => {
+const Button = ({label}) => {
+    const onClickButton = () => {
+        console.log("Button clicked");
+    }
+
     return (
-        <div id="Button">
+        <div className="Button" onClick={onClickButton}>
+            {label}
         </div>
     )
 }

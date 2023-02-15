@@ -1,8 +1,34 @@
-.Login{
-    background-color: #ffffff;
+.login{
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.login_container {
+    color: white;
+    background-color: rgba(175, 175, 175, 0.4);
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_container_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_container_form_input {
+    font-size: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10%;
 }

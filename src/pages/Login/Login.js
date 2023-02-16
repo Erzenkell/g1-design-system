@@ -30,7 +30,7 @@ const Login = () => {
                         </div>
                         <div className="login_container_form_button">
                             <Button
-                                label="Login"
+                                label="Sign in"
                                 colorFamily="Primary"
                                 color="green"
                                 type="round"

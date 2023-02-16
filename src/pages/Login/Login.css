@@ -14,14 +14,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-width: 400px;
+}
+
+.login_container_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 .login_container_form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .login_container_form_input {
@@ -29,5 +36,11 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    margin-bottom: 10%;
+}
+
+.login_container_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

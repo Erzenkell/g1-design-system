@@ -18,12 +18,13 @@ const Login = () => {
                             <TextInput 
                                 label="Email"
                                 placeholder="flamin@go.com"
+                                type="email"
                             />
                         </div>
                         <div className="login_container_form_input">
                             <TextInput
                                 label="Password"
-                                placeholder="*****"
+                                type="password"
                         />
                         </div>
                         <div className="login_container_form_button">

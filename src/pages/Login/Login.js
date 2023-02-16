@@ -17,13 +17,13 @@ const Login = () => {
                         <div className="login_container_form_input">
                             <TextInput 
                                 label="Email"
-                                placeholder="Email"
+                                placeholder="flamin@go.com"
                             />
                         </div>
                         <div className="login_container_form_input">
                             <TextInput
                                 label="Password"
-                                placeholder="Password"
+                                placeholder="*****"
                         />
                         </div>
                         <div className="login_container_form_button">

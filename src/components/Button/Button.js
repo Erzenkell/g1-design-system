@@ -1,13 +1,18 @@
 import React from "react";
 import "./Button.css";
 
-const Button = ({label}) => {
+import COLORS from "../../assets/colors/Colors.js";
+
+const Button = ({label, colorFamily, color}) => {
     const onClickButton = () => {
         console.log("Button clicked");
     }
 
+    const buttonColor = COLORS[colorFamily][color];
+    console.log(buttonColor);
+
     return (
-        <div className="Button" onClick={onClickButton}>
+        <div className="Button" onClick={onClickButton} style={{'backgroundColor': `${buttonColor}`}}>
             {label}
         </div>
     )

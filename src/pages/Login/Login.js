@@ -31,6 +31,8 @@ const Login = () => {
                         <div className="login_container_form_button">
                             <Button
                                 label="Login"
+                                colorFamily="Primary"
+                                color="green"
                             />
                         </div>
                     </div>
@@ -39,7 +41,9 @@ const Login = () => {
                     <Divider text="or"/>
                     <div className="login_container_footer_button"> 
                         <Button 
-                            label="Login with Google"    
+                            label="Login with Google"
+                            colorFamily="Google"
+                            color="blue"
                         />
                     </div>
                 </div>       

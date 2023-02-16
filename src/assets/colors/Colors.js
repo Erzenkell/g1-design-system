@@ -1,5 +1,5 @@
 const COLORS = {
-    primary:{
+    Primary:{
         white: "#FFFFFF",
         black: "#000000",
         red: "#FF0000",
@@ -22,6 +22,9 @@ const COLORS = {
     Red: {
         500: "#AE372A",
         400: "#D44333",
+    },
+    Google: {
+        blue: "#4285F4",
     },
 }
 

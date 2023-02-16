@@ -25,7 +25,7 @@ const Login = () => {
                             <TextInput
                                 label="Password"
                                 type="password"
-                                subtext="Forgot password?"
+                                subtext="Forgot password ?"
                         />
                         </div>
                         <div className="login_container_form_button">

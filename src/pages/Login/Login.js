@@ -33,6 +33,7 @@ const Login = () => {
                                 label="Login"
                                 colorFamily="Primary"
                                 color="green"
+                                type="round"
                             />
                         </div>
                     </div>
